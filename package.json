@@ -1,19 +1,19 @@
 {
-  "name": "jdbc",
+  "name": "@themost/jdbc",
   "version": "0.7.6",
   "description": "Node Module JDBC wrapper",
   "main": "index.js",
   "dependencies": {
     "async": "3.2.4",
-    "java": "^0.12.2",
-    "lodash": "4.17.21",
+    "java": "^0.14.0",
+    "lodash": "^4.17.21",
     "uuid": "9.0.0",
-    "winston": "3.8.2"
+    "winston": "^3.14.2"
   },
   "devDependencies": {
     "jshint": "2.13.6",
     "lolex": "^6.0.0",
-    "nodeunit": "~0.11.3",
+    "nodeunit": "^0.11.3",
     "q": "^1.5.1"
   },
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/CraZySacX/node-jdbc.git"
+    "url": "git://github.com/themost-framework/node-jdbc.git"
   },
   "directories": {
     "doc": ".",
@@ -38,7 +38,6 @@
   "engines": {
     "node": ">=0.10"
   },
-  "author": "Jason Ozias <jason.g.ozias@gmail.com>",
   "license": "MIT",
   "readmeFilename": "README.md"
 }
